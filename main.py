@@ -212,3 +212,15 @@ class Yippie():
         dumb_string4 = str(percentaminoacidirllist2[1]) 
         self.label4 = Label(text = dumb_string4)
         self.layout.add_widget(self.label4)
+        
+        
+        
+
+
+class Dumbclass(App):
+    def build(self):
+    	return Yippie()
+
+
+Dumbclass().run()
+
